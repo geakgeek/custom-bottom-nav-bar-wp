@@ -2,8 +2,8 @@
 
 A sleek and customizable bottom navigation bar plugin for WordPress, optimized for mobile and tablet devices. Enhance your website's user experience with an easily accessible navigation menu.
 
-Demo - https://geargeek.in/
-OPen in mobile.
+Demo - https://geargeek.in
+Open in mobile.
 
 ## Features
 
@@ -12,28 +12,27 @@ OPen in mobile.
 * Smooth animations and hover effects
 * Easy integration with existing WordPress themes
 * Lightweight and performance-optimized
+* Admin panel for easy URL customization
 
 ## Installation
 
 1. Download the plugin files and upload them to your `/wp-content/plugins/custom-bottom-navigation-bar` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. Use the Settings->Custom Bottom Nav screen to configure the plugin (if applicable).
+3. Go to Settings -> Bottom Nav to configure the plugin.
 
 ## Usage
 
-Once activated, the bottom navigation bar will automatically appear on mobile and tablet devices. The default configuration includes:
+1. After activation, go to Settings -> Bottom Nav in your WordPress admin panel.
+2. Customize the URLs for Home, WhatsApp, and Blog as needed.
+3. Save your changes.
 
-* Home link
-* WhatsApp channel link
-* Blog link
-
-You can customize the links, icons, and styles by modifying the plugin files.
+The bottom navigation bar will automatically appear on mobile and tablet devices, using your customized URLs.
 
 ## Customization
 
-To customize the navigation bar:
+To further customize the navigation bar:
 
-1. Edit the `cbnb_add_bottom_nav()` function in the main plugin file to change the links and icons.
+1. Edit the `cbnb_add_bottom_nav()` function in the main plugin file to change the icons or add/remove links.
 2. Modify the `cbnb-styles.css` file in the `css` folder to adjust the styles.
 
 ## Contributing
